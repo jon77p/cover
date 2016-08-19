@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css'>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+		<script src="js/jquery.min.js"></script>
+		<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/simplebar.css" />
+		<style>
+		/* Import font from Google Fonts */
+		body {
+			font-family: 'PT Sans Caption', sans-serif;
+		}
+		/* Remove the navbar's default margin-bottom and rounded borders */
+		.navbar {
+			margin-bottom: 0;
+			border-radius: 0;
+		}
+
+		.main {
+			padding-bottom: 5px;
+			margin-bottom: 5px;
+			height: 590px;
+			width: 100%;
+			overflow: auto;
+		}
+
+		.jumbotron {
+			margin-bottom: 0px;
+		}
+
+		.bg-red {
+			background-color: #E53B3B;
+			color: #FFAAAA;
+		}
+		.bg-yellow {
+			background-color: #ECEC2A;
+			color: #FFFF7D;
+		}
+		.bg-green {
+			background-color: #21BC21;
+			color: #6BDA6B;
+		}
+		.bg-blue {
+			background-color: #3531A4;
+			color: #7370C7;
+		}
+		img.profile {
+			height: 15%;
+			width: 15%;
+		}
+		
+		.thumbnail {
+			padding: 0 0 15px 0;
+			border: none;
+			border-radius: 0;
+		}
+
+		.thumbnail img {
+			width: 100%;
+			height: 100%;
+			margin-bottom: 10px;
+		}
+		</style>
+		<title>jonprentice</title>
+		
+		<!-- Bootstrap -->
+		<!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse navbar-fixed-top" data-offset-top="197">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="https://www.jonprentice.me">jonprentice</a>
+				</div>
+				<div>
+					<ul class="nav navbar-nav">
+						<li class="active"><a data-toggle="pill" href="#home"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+						<li><a data-toggle="pill" href="#about"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+						<li class="disabled"><a data-toggle="pill" href="">Menu 1</a></li>
+						<li class="disabled"><a data-toggle="pill" href="">Menu 2</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-list"></span> Projects <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="">Submenu 1</a></li>
+								<li><a href="">Submenu 2</a></li>
+								<li><a href="">Submenu 3</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a data-toggle="pill" href="#login"><span class="glyphicon glyphicon-lock"></span> Login</a></li>
+						<li class="disabled"><a data-toggle="pill" href="#contact"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="jumbotron jumbotron-fixed">
+			<div class="row-fluid">
+            <div class="span12">
+                <img src="/images/profile." class="img-circle profile" alt="Profile">
+            </div>
+            <div class="container inline-block">
+                <h1>Jon Prentice</h1>
+            </div>
+          </div>
+		</div>
+		<div id="main" class="tab-content sidebar">
+			<div id="home" class="tab-pane fade in active main" data-simplebar-direction="vertical">
+				<div class="container-fluid simplebar-scroll-content">
+					<div class="container-fluid bg-3 text-center">
+						<h2>Portfolio</h2>
+						<h4>What I have created</h4><br>
+						<div class="row text-center">
+							<div class="col-sm-4">
+								<div class="thumbnail">
+									<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+									<p><strong>Template</strong></p>
+									<p>Caption</p>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="thumbnail">
+									<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+									<p><strong>Template</strong></p>
+									<p>Caption</p>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="thumbnail">
+									<img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+									<p><strong>Template</strong></p>
+									<p>Caption</p>
+								</div>
+							</div>
+						</div>
+						<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat deleniti labore asperiores dolores optio, quibusdam nostrum iusto eveniet molestiae, repellendus, soluta atque laborum aperiam voluptatibus accusamus vitae! Repellat reprehenderit, accusamus!</h1><br><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat deleniti labore asperiores dolores optio, quibusdam nostrum iusto eveniet molestiae, repellendus, soluta atque laborum aperiam voluptatibus accusamus vitae! Repellat reprehenderit, accusamus!</h1><br><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat deleniti labore asperiores dolores optio, quibusdam nostrum iusto eveniet molestiae, repellendus, soluta atque laborum aperiam voluptatibus accusamus vitae! Repellat reprehenderit, accusamus!</h1><br><h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat deleniti labore asperiores dolores optio, quibusdam nostrum iusto eveniet molestiae, repellendus, soluta atque laborum aperiam voluptatibus accusamus vitae! Repellat reprehenderit, accusamus!</h1>
+					</div>
+				</div>
+			</div>
+			<div id="about" class="tab-pane fade"  style="padding-top:70px;padding-bottom:70px;">
+				<div class="container-fluid bg-red text-center">
+					<h1>musician <span class="glyphicon glyphicon-music"></span></h1>
+				</div>
+				<div class="container-fluid bg-yellow text-center">
+					<h1>programmer</h1>
+				</div>
+				<div class="container-fluid bg-green text-center">
+					<h1>entrepreneur</h1>
+				</div>
+				<div class="container-fluid bg-blue text-center">
+					<h1>developer</h1>
+				</div>
+			</div>
+			<div id="menu1" class="tab-pane fade">
+				<h3>Menu 1</h3>
+				<p>Some content in menu 1.</p>
+			</div>
+			<div id="menu2" class="tab-pane fade">
+				<h3>Menu 2</h3>
+				<p>Some content in menu 2.</p>
+			</div>
+      <div id="login" class="tab-pane fade">
+          <style>
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+*{margin:0; padding:0}
+body{background:#294072; font-family: 'Source Sans Pro', sans-serif}
+.form{width:400px; margin:0 auto; background:#1C2B4A; margin-top:150px}
+.header{height:44px; background:#17233B}
+.header h2{height:44px; line-height:44px; color:#fff; text-align:center}
+.login{padding:0 20px}
+.login span.un{width:10%; text-align:center; color:#0C6; border-radius:3px 0 0 3px}
+.text{background:#12192C; width:90%; border-radius:0 3px 3px 0; border:none; outline:none; color:#999; font-family: 'Source Sans Pro', sans-serif}
+.text,.login span.un{display:inline-block; vertical-align:top; height:40px; line-height:40px; background:#12192C}
+
+.btn{height:40px; border:none; background:#0C6; width:100%; outline:none; font-family: 'Source Sans Pro', sans-serif; font-size:20px; font-weight:bold; color:#eee; border-bottom:solid 3px #093; border-radius:3px; cursor:pointer}
+ul li{height:40px; margin:15px 0; list-style:none}
+.span{}
+         </style>
+          <div class="form">
+              <div class="header"><h2>Sign In</h2></div>
+              <div class="login">
+                  <form action="">
+                      <ul>
+                          <li><span class="un"><i class="fa fa-user"></i></span><input type="text" required class="text" placeholder="User Name or Email"/></li>
+                          <li><span class="un"><i class="fa fa-lock"></i></span><input type="password" required class="text" placeholder="User Password"/></li>
+                          <li><input type="submit" value="LOGIN" class="btn"></li>
+                          <li><div class="span"><span class"ch"><input type="checkbox" id="r"><label for="r">Remember Me</label></span><span class="ch"><a href="#">Forgot Password?</a></span></div></li>
+                      </ul>
+                  </form>
+                  <div class="social">
+                      <a href="#"><div class="fb"><i class="fa fa-facebook-f"></i> &nbsp; Login with Facebook</div></a>
+                  </div>
+              </div>
+          </div><br/>
+          <div class="sign">
+              <div class="need">Need new account ?</div>
+              <div class="up"><a href="">Sign up</a></div>
+          </div>
+      </div>
+      <div id="contact" class="tab-pane fade">
+          <h3>Coming Soon...</h3>
+      </div>
+		</div>
+		<nav class="navbar navbar-inverse navbar-fixed-bottom">
+			<div class="container-fluid text-center">
+				<div>
+					<h1 style="margin-left:-15px;color:#9d9d9d;height:50px;padding:15px;font-size:18px;line-height:20px;">&copy Copyright 2015 | <a href="mailto:jon77p@gmail.com">Jon Prentice</a></h1>
+				</div>
+			</div>
+		</nav>
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			  $('[data-toggle="popover"]').popover();
+			});
+		</script>
+		<script src="js/simplebar.min.js"></script>
+		<script>
+			$('#main').simplebar();
+		</script>
+	</body>
+</html>

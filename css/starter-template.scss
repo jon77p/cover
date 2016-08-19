@@ -1,0 +1,97 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #fff;
+$darkbg-color: #657399;
+$lightbg-color: #fff;
+$link-color: #bdb2ba;
+$text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+$bg-image: url('/media/mountain-full.jpg') no-repeat center center fixed;
+
+/* COLOR SWATCH */
+/* #f3fdff */
+/* #bcb1b9 */
+/* #657399 */
+/* #281f3b */
+/* #bdb2ba */
+
+html, body, .container-table {
+  height: 100%;
+}
+
+.container-table {
+  display: table;
+}
+
+.vertical-center-row {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+body {
+  color: $primary-color;
+  text-align: center;
+  text-shadow: $text-shadow;
+  padding-top: 0px;
+  background: $bg-image;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+
+.starter-template {
+  text-align: center;
+}
+
+a, a:focus, a:hover {
+  color: $primary-color;
+}
+
+.navbar {
+  background-color: $darkbg-color;
+  opacity: 0.8;
+  border-radius: 4px;
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    text-decoration-color: $primary-color;
+
+    &:hover, &:focus {
+      color: $link-color;
+      background-color: transparent;
+    }
+  }
+}
+
+.navbar > li > a {
+  font-size: 16px;
+  font-weight: bold;
+  color: $primary-color;
+  border-bottom: 2px solid transparent;
+}
+
+.content {
+  margin-top: 35%;
+  padding: 50px;
+  color: $primary-color;
+  background-color: $darkbg-color;
+  opacity: 0.8;
+  align-content: center;
+  text-align: center;
+  border: 1px solid $primary-color;
+  border-radius: 10px;
+
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    text-decoration-color: $primary-color;
+
+    &:hover, &:focus { color: $link-color; }
+  }
+}
+
+.footer {
+  color: $lightbg-color;
+  color: rgba(255,255,255,0.5);
+}
