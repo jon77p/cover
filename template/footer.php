@@ -1,5 +1,5 @@
                     <div class="blur">
-                        <img src="/media/mountain-full.jpg" class="bg">
+                        <img src="/media/gold_sunset.jpg" class="bg">
                     </div>
                 </div>
                 <div class="mastfoot">
