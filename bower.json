@@ -1,0 +1,21 @@
+{
+  "name": "default.site",
+  "description": "Website code for cover website",
+  "main": "index.js",
+  "authors": [
+    "Jon Prentice <jon77p@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jon77p/cover",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}

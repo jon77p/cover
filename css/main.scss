@@ -1,9 +1,5 @@
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
-
 // Our variables
-$base-font-family:      "Helvetica Neue", Helvetica, Arial, sans-serif;
+//$base-font-family:      "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:        16px;
 $base-font-weight:      400;
 $small-font-size:       $base-font-size * 0.875;
@@ -25,7 +21,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
-
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -43,8 +41,9 @@ $on-laptop:        800px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
+/*@import
         "base",
         "layout",
         "syntax-highlighting"
 ;
+*/

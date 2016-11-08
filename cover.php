@@ -3,7 +3,7 @@
 <?php include 'template/head2.php';?>
 <?php include 'template/nav.php';?>
 <?php include 'template/head3.php';?>
-                <h1 class="cover-heading"><a href="https://www.facebook.com/public/Jon-Prentice">jonprentice</a></h1>
+                <h1 class="cover-heading"><a href="https://www.facebook.com/jon77p">jonprentice</a></h1>
                 <p class="lead">Welcome to the cover page for <a href="http://jonprentice.me">jonprentice.me</a>.</p>
                 <p class="lead">This page is still a <b><em>work in progress</em></b>.</p>
                 <p class="lead">

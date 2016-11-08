@@ -22,6 +22,14 @@
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="js/bootstrap.min.js"></script>
         <script>
+$('.dropdown-toggle').dropdown();
+
+$('ul.nav li.dropdown').hover(function() {
+ $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeIn(175);
+}, function() {
+ $(this).find('.dropdown-menu').stop(true, true).delay(100).fadeOut(175);
+});
+
 function myFunction() {
      var x = document.getElementById("snackbar")
      x.className = "show";
