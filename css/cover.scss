@@ -2,6 +2,12 @@
 $white: #fff;
 $bg-pic: "'/media/gold_sunset.jpg'";
 
+// transitions
+@import "animated/animated";
+
+@include animation(fade-in-down);
+@include animation(fade-in);
+
 /*
  * Globals
  */
