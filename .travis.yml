@@ -3,7 +3,7 @@
      "test/travis.rb"
     ],
     language: sass,
-    sudo: false,
+    sudo: required,
     before_install: [
      "gem install sass"
     ]
