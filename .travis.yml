@@ -1,9 +1,10 @@
 {
-    "script": [
+    script: [
      "test/travis.rb"
     ],
-    "language": "sass",
-    "before_install": [
+    language: sass,
+    sudo: false,
+    before_install: [
      "gem install sass"
     ]
 }
