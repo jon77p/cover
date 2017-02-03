@@ -1,0 +1,23 @@
+$font-stack: Helvetica, Roboto, 'Segoe UI', sans-serif;
+
+$primary-color: rgb(129, 68, 255);
+$secondary-color: rgb(71, 62, 232);
+$tertiary-color: rgb(81, 118, 255);
+$quaternary-color: rgb(62, 143, 232);
+$text-color: #000fff;
+$palette: (1: $primary-color, 2: $secondary-color, 3: $tertiary-color, 4: $quaternary-color, 5: $text-color);
+
+body {
+    font: 100% $font-stack;
+}
+
+$i: 1;
+$n: 5;
+@while $i < $n + 1 {
+    h#{$i} { color: map-get($palette, #{$i}); }
+    $i: $i + 1;
+}
+
+p {
+    color: map-get($palette, color5);
+}
