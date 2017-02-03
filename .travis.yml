@@ -1,6 +1,6 @@
 script:
-- "test/travis.rb" //file to be executed
+- "test/travis.rb"
 
-language: sass //language
+language: sass
 before_install:
 - gem install sass
